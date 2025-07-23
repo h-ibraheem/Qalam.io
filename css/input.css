@@ -1,0 +1,169 @@
+/* src/input.css - Corrected and Optimized */
+@import "tailwindcss";
+
+/* Your brand system */
+:root {
+    --color-blue: #4A90E2;
+    --color-blue-dark: #2E5E94;
+    --color-blue-lite: #E3F2FD;
+    --color-green: #2E7D32;
+    --color-green-lite: #cdfccf;
+    --color-main-text: #333333;
+    --color-secondary-text: #777;
+    --color-section-background: #F8F9FA;
+    --section-padding: 60px;
+    --main-duration: 0.5s;
+}
+
+/* Global styles */
+body {
+    background-color: var(--color-section-background);
+    color: var(--color-secondary-text);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Base button styles */
+.btn {
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all var(--main-duration);
+}
+
+/* Button variants */
+.btn-blue {
+    background-color: var(--color-blue);
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: var(--color-blue-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
+}
+
+.btn-secondary {
+    background-color: white;
+    border: 2px solid #e5e7eb;
+}
+
+.btn-secondary:hover {
+    background-color: #f9fafb;
+    border-color: var(--color-blue);
+    color: var(--color-main-text);
+}
+
+/* Card component */
+
+.card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+/* Text color utilities */
+
+
+.text-blue-dark {
+    color: var(--color-blue-dark);
+}
+
+
+/* Background utilities */
+.bg-section {
+    background-color: var(--color-section-background);
+}
+
+
+
+.icon-background {
+    background-image: url('../img/logoSVG.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10rem;
+    height: 10rem;
+    filter: invert(0.8) brightness(100%);
+    /* Pure white */
+}
+
+/* Section spacing utility */
+.section-padding {
+    padding: var(--section-padding) 0;
+}
+
+/* Mobile menu button */
+.mobile-menu-btn {
+    background-color: #f3f4f6;
+    color: var(--color-secondary-text);
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+}
+
+.mobile-menu-btn:hover {
+    background-color: #e5e7eb;
+}
+
+
+/* Additional utility components */
+.container-custom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .container-custom {
+        padding: 0 2rem;
+    }
+}
+
+
+
+/* Statistics animation */
+@keyframes countUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Floating elements animation */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}

@@ -1,0 +1,17 @@
+# Tailwind CSS generated files
+/src/output.css
+/dist/output.css
+
+# Build files
+/build/
+/dist/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env*
+
+# OS generated files
+.DS_Store
+Thumbs.db
