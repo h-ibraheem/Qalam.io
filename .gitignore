@@ -1,5 +1,16 @@
 # Tailwind CSS generated files
+<<<<<<< HEAD
+<<<<<<< Updated upstream
 css/output.css
+=======
+/css/output.css
+>>>>>>> 4ba08fd446b4127e23b11c6b214259a3624befd4
+=======
+/css/output.css
+=======
+/cc/output.css
+>>>>>>> main
+>>>>>>> Stashed changes
 /dist/output.css
 
 # Build files
@@ -14,5 +25,16 @@ node_modules/
 
 # OS generated files
 .DS_Store
+<<<<<<< HEAD
+<<<<<<< Updated upstream
 Thumbs.dbcss/output.css
 
+=======
+Thumbs.db
+>>>>>>> 4ba08fd446b4127e23b11c6b214259a3624befd4
+=======
+Thumbs.db
+=======
+Thumbs.dbcss/output.css
+>>>>>>> main
+>>>>>>> Stashed changes

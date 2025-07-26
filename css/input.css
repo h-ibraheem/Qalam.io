@@ -167,3 +167,61 @@ html {
 .animate-float {
     animation: float 3s ease-in-out infinite;
 }
+
+/* section bg */
+
+
+.teams,
+.founder,
+.statistics {
+    position: relative;
+    /* Don't put background properties here */
+}
+
+
+
+.founder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/150896785_10515253.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.teams::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/team_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    z-index: -1;
+
+}
+
+.statistics::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/30751434_11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    z-index: -1;
+}
