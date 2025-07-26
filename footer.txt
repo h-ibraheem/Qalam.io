@@ -1,0 +1,95 @@
+<footer class="text-gray-300  bg-(--color-blue-dark)">
+    <div
+        class="container px-5 py-4 mx-auto flex md:items-center lg:items-start  md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a class="flex  items-center md:justify-center justify-center" href="/">
+                <div class="icon-background text-white "></div>
+            </a>
+            <p class="mt-1  text-gray-300 text-lg text-center">Qalam Al Maarifa for Research and Development
+            </p>
+
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start gap-5">
+                <!-- social media Icons -->
+                <a href="/" target="_blank"
+                    class="text-gray-400 transition duration-100 hover:text-blue-500 text-2xl hover:text-3xl active:text-gray-600  ">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="/" target="_blank"
+                    class="text-gray-400 transition duration-100 hover:text-blue-500 text-2xl hover:text-3xl active:text-gray-600  ">
+                    <i class="fa-brands fa-linkedin-in "></i>
+                </a>
+
+                <a href="/" target="_blank"
+                    class="text-gray-400 transition duration-100 hover:text-gray-900 text-2xl hover:text-3xl active:text-gray-600">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="/" target="_blank"
+                    class="text-gray-400 transition duration-100 hover:text-red-500 text-2xl hover:text-3xl active:text-gray-600">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+            </span>
+
+
+
+        </div>
+        <!-- start quick link -->
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <!-- start category -->
+            <div class="  px-4 capitalize">
+                <h2 class="font-medium  tracking-widest text-sm">quick links</h2>
+                <nav class="list-none">
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">Link</a>
+                    </li>
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">Link</a>
+                    </li>
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">Link</a>
+                    </li>
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">Link</a>
+                    </li>
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">Link</a>
+                    </li>
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">Link</a>
+                    </li>
+
+                </nav>
+            </div>
+
+            <!-- start category -->
+            <div class="  px-4 capitalize">
+                <h2 class="font-medium  tracking-widest text-sm">services</h2>
+                <nav class="list-none">
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">services</a>
+                    </li>
+
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">services</a>
+                    </li>
+
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">services</a>
+                    </li>
+
+                    <li class="my-2">
+                        <a class="text-gray-400 hover:text-gray-500">services</a>
+                    </li>
+
+
+                </nav>
+            </div>
+
+            <!-- start contact -->
+
+
+        </div>
+    </div>
+    <p class="w-full bg-white flex justify-center  text-gray-500 text-sm text-center sm:text-left">© 2025 Qalam Al
+        Maarifa</p>
+</footer>
