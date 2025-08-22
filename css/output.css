@@ -365,8 +365,14 @@
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
+  .h-72 {
+    height: calc(var(--spacing) * 72);
+  }
   .h-80 {
     height: calc(var(--spacing) * 80);
+  }
+  .h-500 {
+    height: calc(var(--spacing) * 500);
   }
   .h-full {
     height: 100%;
