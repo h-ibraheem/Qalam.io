@@ -8,7 +8,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
-    --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-green-400: oklch(79.2% 0.209 151.711);
     --color-green-500: oklch(72.3% 0.219 149.579);
     --color-blue-500: oklch(62.3% 0.214 259.815);
@@ -272,6 +271,9 @@
       max-width: 96rem;
     }
   }
+  .mx-4 {
+    margin-inline: calc(var(--spacing) * 4);
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -506,6 +508,9 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -544,9 +549,6 @@
   }
   .bg-\(--color-blue-dark\) {
     background-color: var(--color-blue-dark);
-  }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
   }
   .bg-gray-100 {
     background-color: var(--color-gray-100);
@@ -906,6 +908,11 @@
       padding-block: calc(var(--spacing) * 8);
     }
   }
+  .sm\:pt-10 {
+    @media (width >= 40rem) {
+      padding-top: calc(var(--spacing) * 10);
+    }
+  }
   .sm\:text-left {
     @media (width >= 40rem) {
       text-align: left;
@@ -985,6 +992,12 @@
       width: calc(3/4 * 100%);
     }
   }
+  .md\:translate-y-1\/4 {
+    @media (width >= 48rem) {
+      --tw-translate-y: calc(1/4 * 100%);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
+  }
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1044,6 +1057,11 @@
   .md\:py-24 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 24);
+    }
+  }
+  .md\:pt-0 {
+    @media (width >= 48rem) {
+      padding-top: calc(var(--spacing) * 0);
     }
   }
   .md\:pr-10 {
@@ -1397,6 +1415,7 @@ html {
   background-position: center;
   transform: rotate(180deg);
   z-index: -1;
+  opacity: 0.5;
 }
 .teams::before {
   content: '';
@@ -1406,6 +1425,7 @@ html {
   width: 100%;
   height: 100%;
   background-image: url(../img/team_bg.jpg);
+  opacity: 0.5;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1420,6 +1440,7 @@ html {
   width: 100%;
   height: 100%;
   background-image: url(../img/30751434_11.jpg);
+  opacity: 0.5;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
