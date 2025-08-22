@@ -29,9 +29,9 @@
                 <a href="/" class="nav-link text-lg font-semibold active">Home</a>
                 <a href="#our-story" class="nav-link text-lg font-semibold">Our Story</a>
                 <a href="#services" class="nav-link text-lg font-semibold">Our Services</a>
-                <a href="/research" class="nav-link text-lg font-semibold">Research</a>
-                <a href="/initiatives" class="nav-link text-lg font-semibold">Initiatives</a>
-                <a href="/partnerships" class="nav-link text-lg font-semibold">FAQ</a>
+                <!-- <a href="/research" class="nav-link text-lg font-semibold">Research</a> -->
+                <a href="#initiatives" class="nav-link text-lg font-semibold">Initiatives</a>
+                <a href="#fq" class="nav-link text-lg font-semibold">FAQ</a>
                 <a href="https://forms.cloud.microsoft/r/8c5mJaKYFs" class="nav-link text-lg font-semibold"
                     target="_blank">Contact
                     Us</a>
@@ -423,12 +423,12 @@
 
     <!-- Game -->
 
-    <section class="section-padding" id="game">
+    <!-- <section class="section-padding  " id="game">
         <div class="container mx-auto px-5 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center w-full">
 
-            <div class="rounded-xl shadow-xl">
+            <div class="rounded-xl shadow-xl w-full h-180">
                 <iframe allow="fullscreen; autoplay; allow-top-navigation-by-user-activation" allowfullscreen
-                    width="795" height="690" frameborder="0"
+                    frameborder="0"
                     src="https://www.educaplay.com/game/24996515-strategic_science_crossword.html"></iframe>
             </div>
 
@@ -443,25 +443,38 @@
                     research skills.
                 </p>
 
-                <!-- Action Buttons -->
-                <!-- <div
-                        class="flex flex-col md:flex-row gap-4 justify-center items-center lg:justify-start py-8 md:w-3/4">
-                        <a href="#about" class="btn-blue px-8 py-3 rounded-lg font-semibold w-full text-center">
-                            Play More ...
-                        </a>
-                        <a href="#initiatives"
-                            class="bg-white btntext-secondary text-center border-2 border-gray-300 hover:bg-gray-50 hover:border-gray-400 px-8 py-3 rounded-lg font-semibold transition-all w-full">
-                            Learn More
-                        </a>
-                    </div> -->
+
 
             </div>
         </div>
 
 
 
-    </section>
+    </section> -->
 
+    <section class="section-padding" id="game">
+        <div class="container mx-auto px-5 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center w-full">
+
+            <div class="rounded-xl shadow-xl w-full overflow-hidden bg-gray-50"
+                style="aspect-ratio: 795/690; min-height: 400px;">
+                <iframe class="w-full h-full border-none"
+                    allow="fullscreen; autoplay; allow-top-navigation-by-user-activation" allowfullscreen
+                    frameborder="0" src="https://www.educaplay.com/game/24996515-strategic_science_crossword.html">
+                </iframe>
+            </div>
+
+            <div class="md:pl-6 leading-relaxed text-center md:text-start text-secondary">
+                <h2 class="text-2xl sm:text-5xl lg:text-3xl font-bold my-6 md:my-8 text-blue-dark">
+                    Play With Us:
+                </h2>
+                <p>
+                    Solve this crossword puzzle to discover key terms and concepts about strategic planning in
+                    scientific research and academic productivity. Each clue is related to an element of planning,
+                    teamwork, publishing, or research skills.
+                </p>
+            </div>
+        </div>
+    </section>
 
     <!-- Start Nidal  -->
     <section class="founder section-padding sm:py-0 md:max-h-300" id="founder">
@@ -948,7 +961,7 @@
 
 
     <!-- start F&Q  -->
-    <section class="py-6 sm:py-8 lg:py-12 bg-white">
+    <section class="py-6 sm:py-8 lg:py-12 bg-white" id="fq">
         <div class="container px-5 pt-10 pb-20 mx-auto">
             <!-- text - start -->
 
@@ -1199,6 +1212,7 @@
             Maarifa</p>
     </footer>
 
+    <script src="./js/script.js" type="module"></script>
 
 </body>
 
